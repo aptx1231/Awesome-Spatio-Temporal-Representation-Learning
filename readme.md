@@ -2,12 +2,12 @@
 
 Representation learning for general graph data and five types of spatio-temporal data:
 
-- Graph Embedding
-- POI/Location
-- Road Network
-- Region
-- Trajectory
-- Check-in Sequence
+- [Graph Embedding](#Graph-Embedding)
+- [POI/Location](#POI/Location)
+- [Road Network](#Road-Network)
+- [Region](#Region)
+- [Trajectory](#Trajectory)
+- [Check-in Sequence](#Check-in-Sequence)
 
 
 ## Graph Embedding
