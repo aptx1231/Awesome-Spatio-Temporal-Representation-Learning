@@ -44,16 +44,16 @@ Representation learning for general graph data and five types of spatio-temporal
 
 ## Road Network
 
-| Model   | Paper                                                        | Publication        | Code                                             | Remarks                       |
-| ------- | ------------------------------------------------------------ | ------------------ | ------------------------------------------------ | ----------------------------- |
-| IRN2Vec | Learning Embeddings of Intersections on Road Networks        | SIGSPATIAL 2019    | [Code](https://github.com/Leo-Bright/IRN2vec)            | Intersections                 |
-| RFN     | Graph Convolutional Networks for Road Networks               | SIGSPATIAL 2019    |                                                  | Intersections                 |
-| SRN2Vec | On Representation Learning for Road Networks                 | TIST 2020          |                                                  | Intersections/Road Segment    |
-| HRNR    | Learning Effective Road Network Representation with Hierarchical Graph Neural Networks | KDD 2020           | [Code](https://gitee.com/solaris_wn/HRNR)                | Road Segment，supervised      |
-| Toast   | Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics | CIKM 2021          | [Code](https://github.com/panda361/TrajFormer_Baselines) | Road Segment，self-supervised |
-|         | A Multiview Representation Learning Framework for Large-Scale Urban Road Networks | MDPI 2022          |                                                  | Road Segment                  |
-| JCLRNT  | Jointly Contrastive Representation Learning on Road Network and Trajectory | CIKM 2022          | [Code](https://github.com/mzy94/JCLRNT)                  | Road Segment，self-supervised |
-| SARN    | Spatial Structure-Aware Road Network Embedding via Graph Contrastive Learning | EBDT 2023（CCF-B） |                                                  | Road Segment，self-supervised |
+| Model   | Paper                                                        | Publication        | Code                                          | Remarks                       |
+| ------- | ------------------------------------------------------------ | ------------------ | --------------------------------------------- | ----------------------------- |
+| IRN2Vec | Learning Embeddings of Intersections on Road Networks        | SIGSPATIAL 2019    | [Code](https://github.com/Leo-Bright/IRN2vec) | Intersections                 |
+| RFN     | Graph Convolutional Networks for Road Networks               | SIGSPATIAL 2019    |                                               | Intersections                 |
+| SRN2Vec | On Representation Learning for Road Networks                 | TIST 2020          |                                               | Intersections/Road Segment    |
+| HRNR    | Learning Effective Road Network Representation with Hierarchical Graph Neural Networks | KDD 2020           | [Code](https://gitee.com/solaris_wn/HRNR)     | Road Segment，supervised      |
+| Toast   | Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics | CIKM 2021          |                                               | Road Segment，self-supervised |
+|         | A Multiview Representation Learning Framework for Large-Scale Urban Road Networks | MDPI 2022          |                                               | Road Segment                  |
+| JCLRNT  | Jointly Contrastive Representation Learning on Road Network and Trajectory | CIKM 2022          | [Code](https://github.com/mzy94/JCLRNT)       | Road Segment，self-supervised |
+| SARN    | Spatial Structure-Aware Road Network Embedding via Graph Contrastive Learning | EBDT 2023（CCF-B） |                                               | Road Segment，self-supervised |
 
 ## Region
 
@@ -77,18 +77,18 @@ Representation learning for general graph data and five types of spatio-temporal
 
 ## Trajectory
 
-| Model          | Paper                                                        | Publication                  | Code                                             | Remarks           |
-| -------------- | ------------------------------------------------------------ | ---------------------------- | ------------------------------------------------ | ----------------- |
-| trajectory2vec | trajectory2vec: Trajectory clustering via deep representation learning | IJCNN 2017                   | [Code](https://github.com/yaodi833/trajectory2vec)       | encoder-decoder   |
-| t2vec          | Deep Representation Learning for Trajectory Similarity Computation | ICDE 2018                    | [Code](https://github.com/boathit/t2vec)                 | encoder-decoder   |
-| Trembr         | Trembr: Exploring Road Networks for Trajectory Representation Learning | TIST 2020                    | [Code](https://github.com/panda361/TrajFormer_Baselines) | self-supervised   |
-| Path-InfoMax   | Unsupervised Path Representation Learning with Curriculum Negative Sampling | IJCAI 2021                   | [Code](https://github.com/Sean-Bin-Yang/Path-InfoMax)    | self-supervised   |
-| Toast          | Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics | CIKM 2021                    | [Code](https://github.com/panda361/TrajFormer_Baselines) | self-supervised   |
-| JCLRNT         | Jointly Contrastive Representation Learning on Road Network and Trajectory | CIKM 2022                    | [Code](https://github.com/mzy94/JCLRNT)                  | self-supervised   |
-| CSTRM          | CSTRM: Contrastive Self-Supervised Trajectory Representation Model for trajectory similarity computation | Computer Communications 2022 |                                                  | self-supervised   |
-| WSCCL          | Weakly-supervised Temporal Path Representation Learning with Contrastive Curriculum Learning | ICDE 2022                    | [Code](https://github.com/Sean-Bin-Yang/TPR)             | weakly-supervised |
-| START          | Self-supervised Trajectory Representation Learning with Temporal Regularities and Travel Semantics | ICDE 2023                    | [Code](https://github.com/aptx1231/start)                | self-supervised   |
-| CSTTE          | Contrastive Pre-training of Spatial-Temporal Trajectory Embeddings | arxiv 2022                   |                                                  | self-supervised   |
+| Model          | Paper                                                        | Publication                  | Code                                                  | Remarks           |
+| -------------- | ------------------------------------------------------------ | ---------------------------- | ----------------------------------------------------- | ----------------- |
+| trajectory2vec | trajectory2vec: Trajectory clustering via deep representation learning | IJCNN 2017                   | [Code](https://github.com/yaodi833/trajectory2vec)    | encoder-decoder   |
+| t2vec          | Deep Representation Learning for Trajectory Similarity Computation | ICDE 2018                    | [Code](https://github.com/boathit/t2vec)              | encoder-decoder   |
+| Trembr         | Trembr: Exploring Road Networks for Trajectory Representation Learning | TIST 2020                    |                                                       | self-supervised   |
+| Path-InfoMax   | Unsupervised Path Representation Learning with Curriculum Negative Sampling | IJCAI 2021                   | [Code](https://github.com/Sean-Bin-Yang/Path-InfoMax) | self-supervised   |
+| Toast          | Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics | CIKM 2021                    |                                                       | self-supervised   |
+| JCLRNT         | Jointly Contrastive Representation Learning on Road Network and Trajectory | CIKM 2022                    | [Code](https://github.com/mzy94/JCLRNT)               | self-supervised   |
+| CSTRM          | CSTRM: Contrastive Self-Supervised Trajectory Representation Model for trajectory similarity computation | Computer Communications 2022 |                                                       | self-supervised   |
+| WSCCL          | Weakly-supervised Temporal Path Representation Learning with Contrastive Curriculum Learning | ICDE 2022                    | [Code](https://github.com/Sean-Bin-Yang/TPR)          | weakly-supervised |
+| START          | Self-supervised Trajectory Representation Learning with Temporal Regularities and Travel Semantics | ICDE 2023                    | [Code](https://github.com/aptx1231/start)             | self-supervised   |
+| CSTTE          | Contrastive Pre-training of Spatial-Temporal Trajectory Embeddings | arxiv 2022                   |                                                       | self-supervised   |
 
 ## Check-in Sequence
 
