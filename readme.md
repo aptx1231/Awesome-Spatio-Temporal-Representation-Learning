@@ -1,4 +1,4 @@
-# Spatio-temporal Representation Learning
+# Spatio-Temporal Representation Learning
 
 Representation learning for general graph data and five types of spatio-temporal data:
 
